@@ -1,0 +1,9 @@
+.spanFooter {
+  color: rgb(212, 75, 33);
+}
+.footer {
+  width: 100vw;
+  text-align: center;
+  margin: 20px 0 0 0;
+  padding: 1px 0;
+}

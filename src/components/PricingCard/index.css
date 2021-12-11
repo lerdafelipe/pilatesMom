@@ -1,0 +1,28 @@
+.Card {
+  width: 220px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #a4a4a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+}
+.Card:nth-child(odd) h2 {
+  color: #ca0147;
+}
+.Card:nth-child(odd) h4 {
+  color: #08abc0;
+}
+.Card:nth-child(even) h4 {
+  color: #ca0147;
+}
+.Card:nth-child(even) h2 {
+  color: #08abc0;
+}
+.Card li {
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,49 @@
+.selectorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 100px);
+  margin-top: 80px;
+  flex-direction: column;
+}
+.selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.select-button {
+  width: 180px;
+  height: 40px;
+  border: 0;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.BtnAdd {
+  height: 40px;
+  border: 0;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  background-color: #319795;
+  font-size: 16px;
+  font-weight: 500;
+}
+option {
+  text-align: center;
+  padding: 10px 0;
+}
+button {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+}

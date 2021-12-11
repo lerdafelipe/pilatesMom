@@ -1,0 +1,37 @@
+.shower {
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  overflow: hidden;
+}
+p {
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+}
+.buttonModal {
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  height: 2em;
+  background-color: #4a9291;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.turno-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(98, 82, 82);
+}
+.BtnDelete {
+  width: 2rem;
+  height: width;
+  background-color: rgb(228, 82, 15);
+}
